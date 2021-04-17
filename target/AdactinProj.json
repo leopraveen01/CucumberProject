@@ -1,0 +1,383 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "To book the adactin hotel",
+        "description": "",
+        "id": "adactin-hotel-deatails-verification;to-book-the-adactin-hotel;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7726457600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "we have enter username and password for login",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.we_have_enter_username_and_password_for_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3634627100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click login \"leopraveen01\" and \"bo9597894811\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"leopraveen01\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"bo9597894811\"",
+                  "offset": 31
+                }
+              ],
+              "location": "AdactinHotelForCuCuOption.click_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1587453300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter room deatails and book",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.enter_room_deatails_and_book(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Location",
+                  "Hotel",
+                  "Room Type",
+                  "Number of Rooms",
+                  "Check In Date",
+                  "Check Out Date",
+                  "Adults per Room",
+                  "Children per Room"
+                ]
+              },
+              {
+                "cells": [
+                  "Sydney",
+                  "Hotel Creek",
+                  "Super Deluxe",
+                  "1 - One",
+                  "05/04/2021",
+                  "10/04/2021",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Melbourne",
+                  "Hotel Sunshine",
+                  "Double",
+                  "3 - Three",
+                  "06/04/2021",
+                  "09/04/2021",
+                  "2 - Two",
+                  "2 - Two"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 805782300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select hotel verifivation form and click continue",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.select_hotel_verifivation_form_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 820015800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "fill the transaction details and card details",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.fill_the_transaction_details_and_card_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "Last_Name",
+                  "BillingAddress",
+                  "CreditCard_No",
+                  "Credit_Card_Type",
+                  "ExpiryMonth",
+                  "ExpiryYear",
+                  "CVV_Number"
+                ]
+              },
+              {
+                "cells": [
+                  "leo",
+                  "praveen",
+                  "sivagangai",
+                  "1234567891234567",
+                  "American Express",
+                  "February",
+                  "2022",
+                  "456"
+                ]
+              },
+              {
+                "cells": [
+                  "leo",
+                  "praveen",
+                  "128-1 sivagangai",
+                  "1234567891234567",
+                  "American Express",
+                  "February",
+                  "2022",
+                  "456"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73122700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click continue",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6008198400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "get PO number",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.get_PO_number()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "To book the adactin hotel",
+        "description": "",
+        "id": "adactin-hotel-deatails-verification;to-book-the-adactin-hotel;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4989176400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "we have enter username and password for login",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.we_have_enter_username_and_password_for_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1962085300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click login \"leopraveen01\" and \"bo9597894811\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"leopraveen01\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"bo9597894811\"",
+                  "offset": 31
+                }
+              ],
+              "location": "AdactinHotelForCuCuOption.click_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1383991800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter room deatails and book",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.enter_room_deatails_and_book(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Location",
+                  "Hotel",
+                  "Room Type",
+                  "Number of Rooms",
+                  "Check In Date",
+                  "Check Out Date",
+                  "Adults per Room",
+                  "Children per Room"
+                ]
+              },
+              {
+                "cells": [
+                  "Sydney",
+                  "Hotel Creek",
+                  "Super Deluxe",
+                  "1 - One",
+                  "05/04/2021",
+                  "10/04/2021",
+                  "1 - One",
+                  "1 - One"
+                ]
+              },
+              {
+                "cells": [
+                  "Melbourne",
+                  "Hotel Sunshine",
+                  "Double",
+                  "3 - Three",
+                  "06/04/2021",
+                  "09/04/2021",
+                  "2 - Two",
+                  "2 - Two"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 655772200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select hotel verifivation form and click continue",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.select_hotel_verifivation_form_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 823007200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "fill the transaction details and card details",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.fill_the_transaction_details_and_card_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "Last_Name",
+                  "BillingAddress",
+                  "CreditCard_No",
+                  "Credit_Card_Type",
+                  "ExpiryMonth",
+                  "ExpiryYear",
+                  "CVV_Number"
+                ]
+              },
+              {
+                "cells": [
+                  "leo",
+                  "praveen",
+                  "sivagangai",
+                  "1234567891234567",
+                  "American Express",
+                  "February",
+                  "2022",
+                  "456"
+                ]
+              },
+              {
+                "cells": [
+                  "leo",
+                  "praveen",
+                  "128-1 sivagangai",
+                  "1234567891234567",
+                  "American Express",
+                  "February",
+                  "2022",
+                  "456"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80593100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click continue",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5768386200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "get PO number",
+            "match": {
+              "location": "AdactinHotelForCuCuOption.get_PO_number()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Adactin hotel deatails verification",
+    "description": "",
+    "id": "adactin-hotel-deatails-verification",
+    "keyword": "Feature",
+    "uri": "C:/Users/leo/eclipse-workspace/cucumberProject/src/test/resources/Feature/AdactinhotelWithCuCuOptions.feature",
+    "tags": []
+  }
+]

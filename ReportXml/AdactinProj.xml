@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="35.712697">
+<testcase classname="Adactin hotel deatails verification" name="To book the adactin hotel" time="17.320737">
+<system-out><![CDATA[Given we have enter username and password for login.........................passed
+When click login "leopraveen01" and "bo9597894811"..........................passed
+And Enter room deatails and book............................................passed
+And select hotel verifivation form and click continue.......................passed
+And fill the transaction details and card details...........................passed
+And click continue..........................................................passed
+And get PO number...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adactin hotel deatails verification" name="To book the adactin hotel 2" time="18.39196">
+<system-out><![CDATA[Given we have enter username and password for login.........................passed
+When click login "leopraveen01" and "bo9597894811"..........................passed
+And Enter room deatails and book............................................passed
+And select hotel verifivation form and click continue.......................passed
+And fill the transaction details and card details...........................passed
+And click continue..........................................................passed
+And get PO number...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
