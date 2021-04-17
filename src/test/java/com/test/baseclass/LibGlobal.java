@@ -28,6 +28,10 @@ public class LibGlobal {
 		maxiMize();
 		implicitlyWait();
 	}
+	public void samplegit() {
+		// TODO Auto-generated method stub
+
+	}
 
 	public void enterText(WebElement element, String args) {
 		if(isDisplayed(element)&& isEnabled(element)) 
